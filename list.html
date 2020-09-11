@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<title>More Bodhisattvas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+i = 0;
+$(document).ready(function(){
+  $("input").keypress(function(){
+    $("span").text(i += 1);
+  });
+});
+</script>
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/avatar.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Lotus Land 純淨蓮界</b></h4>
+    <p class="w3-text-grey">A Buddhist Philosophy Site</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Home</a> 
+    <a href="index.html#books" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw w3-margin-right"></i>Content</a>
+	<a href="list.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envira fa-fw w3-margin-right"></i>More</a>
+    <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact</a>
+  </div>
+  <div class="w3-panel w3-large">
+	<audio controls autoplay loop style="width:85%">
+	<!-- source src="http://assets.chengduguqin.com/audio/puanzhou.mp3" type="audio/mpeg" -->
+	<source src="media/music.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	<!--
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i> 
+	-->
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="images/avatar.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>More Famous Bodhisattva</b></h1>
+		<div class="w3-section w3-bottombar w3-padding-16">
+		</div>
+    </div>
+  </header>
+  
+	<!-- line -->
+	<div class="w3-row-padding">
+	
+	<!-- 3rd Photo Grid-->
+	<div class="w3-row-padding">
+    <p><b><a href="images/zhuntipusa.jpg" target="_blank">準提菩薩 Cundi</a></b></p>
+    <p>多數佛教宗派認為準提菩薩是觀世音菩薩的化身，又稱準提觀音、天人丈夫觀音，歸入六觀音之一，為救度「人道」之觀音菩薩化身。</p>
+	<p>《準提神咒》&nbsp;
+	<a href="media/zhuntishenzhou.pdf" target="_blank"><img src="icons/book.svg" alt="" width="16" height="16" title="Book"></a> &nbsp;
+	<!-- a href="https://www.youtube.com/watch?v=a-bXaNwsfG4" target="_blank"><img src="icons/file-play.svg" alt="" width="16" height="16" title="Play"></a --></p>
+	
+	<br>
+	<br>
+	<br>
+	</div>
+    </div>
+	
+
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><!--span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span--></div>
+      <h3>Contact</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@email.com</p>
+	  <div>
+		<h4>Timer</h4>
+		Press Here <input type="text">
+		<p>Accomplish <span style="color:blue;font-weight:bold">0</span></p>
+	  </div>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="https://formspree.io/trendsmusic2012@gmail.com" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="_replyto" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <button type="submit" class="w3-button w3-right w3-theme" value="Send">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+  
+  <div style="text-align:center">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+  <br>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
